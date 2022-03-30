@@ -1,0 +1,129 @@
+*{
+  margin-top: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.titulo-pagina {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-right: solid rgb(255, 255, 255);
+  font-weight: bolder;
+  padding-right: 20px;
+}
+
+.session{
+  justify-self: flex-end;
+}
+
+.bi-cart {
+  color: white;
+  font-size: 35px;
+  margin-left: 40px;
+}
+
+.bi-box-arrow-right{
+  color: white;
+  font-size: 35px;
+}
+
+.login-tienda{
+  height: 400px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  background: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  margin-top: 10%;
+  border-radius: 5%;
+}
+
+.ing{
+  margin-top: 5%;
+  border-radius: 7%;
+}
+
+.contenedor-tienda {
+  padding-top: 1%;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  background: linear-gradient(rgb(59, 57, 57),rgb(122, 117, 117),rgb(216, 208, 208));
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 550px;
+  width: 400px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+  border-radius: 5%;
+}
+
+.card-img-top {
+  height: 350px;
+  width: 230px;
+  border-radius: 5%;
+  margin-top: 10px;
+}
+
+.nombre-producto {
+  padding-top: 15px;
+  color: rgb(0, 0, 0);
+  font-weight:bold;
+}
+
+.card-precio {
+  font-weight: bold;
+  color:rgb(0, 0, 0)
+}
+
+.hidden{
+  display: none;
+}
+
+.contenedor-carrito{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-login{
+  color: red;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
